@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	list-style: none;
+	text-decoration: none;
+}
+
+body{
+	background: url("Photo/bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header{
+	position: static;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 8%;
+}
+
+header .logo{
+	margin: 1rem;
+	font-style: 20px;
+	font-weight: 900;
+	font-size: 28px;
+	justify-content: center;
+	color: #02995F;
+	text-shadow: 0px 1px 10px #02995F;
+	letter-spacing: 2px;
+	transition: .5s;
+}
+
+header .logo:hover{
+	transform: scale(1.2);
+}
+
+haeder nav, ul, li, a{
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	float: left;
+}
+
+
+haeder nav, ul, li, a {
+	padding: 10px;
+	color: #02995F;
+	font-size: 15px;
+	font-weight: 100;
+	text-shadow: 0px 1px 10px #02995F;
+}
+
+
+
+haeder nav, ul, li, a:hover {
+	transition: .5s;
+	transform: scale(1.2);
+}
